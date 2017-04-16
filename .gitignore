@@ -1,2 +1,23 @@
+
+# Created by https://www.gitignore.io/api/sass,bower,codekit
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+### CodeKit ###
+# General CodeKit files to ignore
+config.codekit
+/min
+
+### CodeKit Patch ###
+*/codekit-config.json
+.codekit-cache
+
+### Sass ###
 .sass-cache/
 *.css.map
+
+# End of https://www.gitignore.io/api/sass,bower,codekit
